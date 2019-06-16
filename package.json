@@ -1,0 +1,25 @@
+{
+  "name": "techdegree-project-6",
+  "version": "1.0.0",
+  "description": "Porfolio Website Techdegree",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatherineRodge/Techdegree-Project-6.git"
+  },
+  "author": "Katherine Rodge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KatherineRodge/Techdegree-Project-6/issues"
+  },
+  "homepage": "https://github.com/KatherineRodge/Techdegree-Project-6#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pug": "^2.0.3"
+  }
+}

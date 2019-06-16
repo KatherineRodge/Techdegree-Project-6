@@ -1,0 +1,47 @@
+const projects = [
+{
+    id : 0,
+    project_name : "Quote Generator",
+    description: "Web page generates random quotes on click",
+    technologies : ["Javascript", "HTML", "CSS"],
+    live_link: "https://katherinerodge.github.io/TechDegree-Project-1",
+    github_link: "https://github.com/KatherineRodge/TechDegree-Project-1",
+    image_urls : ["Images/RandomQuoteGenerator_1.PNG", "Images/RandomQuoteGenerator_2.PNG", "Images/RandomQuoteGenerator_3.PNG"]
+},
+{
+    id : 1,
+    project_name : "10 at a time Student Generator",
+    description: "Create a user friendly list that generates 10 students at a time using pure Javascript with a search bar for added functionality",
+    technologies : ["Javascript", "HTML", "CSS"],
+    live_link: "https://katherinerodge.github.io/Techdegree-Project-2/",
+    github_link: "https://github.com/KatherineRodge/Techdegree-Project-2",
+    image_urls : ["Images/RandomStudents_1.PNG", "Images/RandomStudents_2.PNG", "Images/RandomStudents_3.PNG"]
+},
+{
+    id : 2,
+    project_name : "Interactive Form",
+    description: "Generates form and provides feedback if filled in with improper or conflicting information",
+    technologies : ["Javascript", "HTML", "CSS"],
+    live_link: "https://katherinerodge.github.io/Techdegree-Project-3/",
+    github_link: "https://github.com/KatherineRodge/Techdegree-Project-3",
+    image_urls : ["Images/Forms_1.PNG", "Images/Forms_2.PNG", "Images/Forms_2.PNG"]
+},
+{
+    id : 3,
+    project_name : "Phrase Guessing Game",
+    description: "Generates randon phrase that user has to guess using either keyboard or clickable letters",
+    technologies : ["Javascript", "HTML", "CSS"],
+    live_link: "https://katherinerodge.github.io/Techdegree-Project-4/",
+    github_link: "https://github.com/KatherineRodge/Techdegree-Project-4",
+    image_urls : ["Images/PhraseHunter_1.PNG", "Images/PhraseHunter_2.PNG", "Images/PhraseHunter_3.PNG"]
+},
+{
+    id : 4,
+    project_name : "Random User Generator",
+    description: "Generates a list of 12 random users using a public API",
+    technologies : ["Javascript", "HTML", "CSS"],
+    live_link: "https://katherinerodge.github.io/Techdegree-Project-5/",
+    github_link: "https://github.com/KatherineRodge/Techdegree-Project-5",
+    image_urls : ["Images/RandomUserAPI_1.PNG", "Images/RandomUserAPI_2.PNG", "Images/RandomUserAPI_3.PNG"]
+}
+]
