@@ -1,0 +1,6 @@
+link(rel='stylesheet', href='/static/css/style.css')
+
+block content
+    h1 #{error.message}
+    h2 Status: #{error.status}
+    pre= error.stack

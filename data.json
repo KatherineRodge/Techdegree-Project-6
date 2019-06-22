@@ -2,47 +2,47 @@
   "projects" : [
       {   "id" : 0,
           "project_name" : "Quote Generator",
-          "description" : "Web page generates random quotes on click",
-          "technologies" : ["Javascript", "HTML", "CSS"],
+          "description" : "Web page that generates random quotes on click. Project will also update automatically after 15 seconds if no action has been taken and a random background color will generate each time the quote is updated.",
+          "technologies" : ["Javascript"],
           "live_link":"https://katherinerodge.github.io/TechDegree-Project-1",
           "github_link": "https://github.com/KatherineRodge/TechDegree-Project-1",
-          "image_urls" : ["/static/Images/RandomQuoteGenerator_1.PNG", "/static/Images/RandomQuoteGenerator_2.PNG", "/static/Images/RandomQuoteGenerator_3.PNG"]
+          "image_urls" : ["/static/Images/RandomQuoteGenerator_1.PNG", "/static/Images/RandomQuoteGenerator_2.PNG", "/static/Images/RandomQuoteGenerator_3.PNG", "/static/Images/RandomQuoteGenerator_4.PNG"]
       },
       {
           "id" : 1,
-          "project_name" : "10 at a time Student Generator",
-          "description" : "Create a user friendly list that generates 10 students at a time using pure Javascript with a search bar for added functionality",
-          "technologies" : ["Javascript", "HTML", "CSS"],
+          "project_name" : "Pagination Student List Generator",
+          "description" : "Created a user friendly list that generates 10 students at a time using pure Javascript with a search bar for added functionality",
+          "technologies" : ["Javascript", "Pragmation"],
           "live_link": "https://katherinerodge.github.io/Techdegree-Project-2/",
           "github_link" : "https://github.com/KatherineRodge/Techdegree-Project-2",
-          "image_urls": ["/static/Images/RandomStudents_1.PNG", "/static/Images/RandomStudents_2.PNG", "/static/Images/RandomStudents_3.PNG"]
+          "image_urls": ["/static/Images/RandomStudents_1.PNG", "/static/Images/RandomStudents_2.PNG", "/static/Images/RandomStudents_3.PNG", "/static/Images/RandomStudents_4.PNG"]
       },
       {
           "id" : 2,
           "project_name" : "Interactive Form",
-          "description": "Generates form and provides feedback if filled in with improper or conflicting information",
-          "technologies" : ["Javascript", "HTML", "CSS"],
+          "description": "Generates form and provides feedback if filled in with improper or conflicting information. Will display errors if name, email, and credit card information (if selected) are inputted incorrectly. Drop down menus will only display colors and sizes for the selected style. Form will also tally up the total cost on workshop times and block out any conflicting activies once one has been selected. Payment information will change based on selection. If Javascript is disabled, all information will be displayed.",
+          "technologies" : ["Javascript", "jquery"],
           "live_link": "https://katherinerodge.github.io/Techdegree-Project-3/",
           "github_link" : "https://github.com/KatherineRodge/Techdegree-Project-3",
-          "image_urls" : ["/static/Images/Forms_1.PNG", "/static/Images/Forms_2.PNG", "static/Images/Forms_2.PNG"]
+          "image_urls" : ["/static/Images/Forms_1.PNG", "/static/Images/Forms_2.PNG", "/static/Images/Forms_3.PNG", "/static/Images/Forms_4.PNG"]
       },
       {
           "id" : 3,
           "project_name" : "Phrase Guessing Game",
-          "description" : "Generates randon phrase that user has to guess using either keyboard or clickable letters",
-          "technologies" : ["Javascript", "HTML", "CSS"],
+          "description" : "Generates randon phrase that user has to guess using either keyboard or clickable letters. Hearts will change based on incorrect guesses. After five missed letters game will end. User can play again with a new phrase after game is complete.",
+          "technologies" : ["Javascript", "CSS"],
           "live_link" : "https://katherinerodge.github.io/Techdegree-Project-4/",
           "github_link": "https://github.com/KatherineRodge/Techdegree-Project-4",
-          "image_urls" : ["/static/Images/PhraseHunter_1.PNG", "/static/Images/PhraseHunter_2.PNG", "/static/Images/PhraseHunter_3.PNG"]
+          "image_urls" : ["/static/Images/PhraseHunter_1.PNG", "/static/Images/PhraseHunter_2.PNG", "/static/Images/PhraseHunter_3.PNG", "/static/Images/PhraseHunter_4.PNG"]
       },
       {
           "id" : 4,
-          "project_name" : "Random User Generator",
-          "description" : "Generates a list of 12 random users using a public API",
-          "technologies" : ["Javascript", "HTML", "CSS"],
+          "project_name" : "Employee Generator",
+          "description" : "Generates a list of 12 employees using a public API. API is set up so all employees are all of English origin so search bar can be used to filter names.If clicked, modal will be displayed showcasing more information about the employee.",
+          "technologies" : ["Javascript", "Public API", "CSS"],
           "live_link" : "https://katherinerodge.github.io/Techdegree-Project-5/",
           "github_link": "https://github.com/KatherineRodge/Techdegree-Project-5",
-          "image_urls" : ["/static/Images/RandomUsersAPI_1.PNG", "/static/Images/RandomUserAPI_2.PNG", "/static/Images/RandomUserAPI_3.PNG"]
+          "image_urls" : ["/static/Images/RandomUsersAPI_1.PNG", "/static/Images/RandomUsersAPI_2.PNG", "/static/Images/RandomUsersAPI_3.PNG", "/static/Images/RandomUsersAPI_4.PNG"]
       }
 ]
 }

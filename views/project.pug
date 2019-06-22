@@ -16,9 +16,9 @@ block content
         each val in tech
           li #{val}
 
+        br
         a.button.expanded(href=`${projectLink}`) Live Demo
         a.button.expanded(href=`${projectGit}`) GitHub Repo
 
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
   while count < imgSrc.length
       img.image(src=`${imgSrc[count++]}`)

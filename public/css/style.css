@@ -1,5 +1,5 @@
 
-h1,h2,h3,h4,h5,p{
+h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
@@ -147,4 +147,22 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+h1{
+ text-transform: uppercase;
+ font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ color: #28304C;
+}
+
+.button{
+  background-color: #28304C;
+}
+
+.button:hover{
+  background-color: #2c5068;
+}
+
+.portfolio-index .thumbnail{
+  box-shadow: 5px 5px #28304C;  
 }
