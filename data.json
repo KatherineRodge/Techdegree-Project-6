@@ -1,7 +1,7 @@
 {
   "projects" : [
       {   "id" : 0,
-          "project_name" : "Quote Generator",
+          "project_name" : "Random Quote Generator",
           "description" : "Web page that generates random quotes on click. Project will also update automatically after 15 seconds if no action has been taken and a random background color will generate each time the quote is updated.",
           "technologies" : ["Javascript"],
           "live_link":"https://katherinerodge.github.io/TechDegree-Project-1",
