@@ -22,11 +22,18 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-//renders each project data when clicked on thumbnail
-app.get( '/project/:id', ( req, res ) => {
-  const projectId = req.params.id;
-  const currentProject = projects[projectId];
 
+//renders each project data when clicked on thumbnail
+app.get( '/project/:id', ( req, res, ) => {
+  const projectId = req.params.id;
+  const projectsLength = projects.length;
+
+//if project id not found, direct back to home page
+  if (projectId > projectsLength || isNaN(projectId)) {
+    res.redirect('/');
+  } else {
+//if project id does exist, direct to project page
+  const currentProject = projects[projectId];
   const name = currentProject.project_name;
   const tech = currentProject.technologies;
   const projectText = currentProject.description;
@@ -34,10 +41,10 @@ app.get( '/project/:id', ( req, res ) => {
   const projectGit = currentProject.github_link;
   const imgSrc = currentProject.image_urls;
   const count = 1;
-
   const currentProjectData = { name, tech, projectText, projectLink, projectGit, imgSrc, count}
-
   res.render('project', currentProjectData);
+  }
+
 });
 
 //error coding (via team treehouse express basics: middleware course)
